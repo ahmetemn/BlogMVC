@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Blog.REPO.Abstract
 {
-    public  interface IBaseMakaleREPO<T> where T : BaseBlog
+    public  interface IBaseBlogREPO<T> where T : BaseBlog
     {
         int Create(T entity);
         int Update(T entity);

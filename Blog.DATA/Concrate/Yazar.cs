@@ -12,8 +12,8 @@ namespace Blog.DATA.Concrate
 
         public string Name { get; set; }
 
-        public int YazarMakaleSayisi { get; set; }
 
+        public string ImagePath { get; set; }
         public ICollection<Makale> Makales { get; set; }
 
 
